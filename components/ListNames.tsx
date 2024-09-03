@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import { ScrollView, TextInput, Button, Text, View, StyleSheet } from 'react-native';
-import { FlatList } from 'react-native-gesture-handler';
-
+import { ScrollView, TextInput, Button, Text, View, FlatList, StyleSheet } from 'react-native';
 export default function ListNames() {
   const [names, setNames] = useState(['karim', 'florian']);
   const [inputText, setInputText] = useState('');

@@ -31,6 +31,8 @@ function addList()
 
         <Counter/>        
         <Link href="/list">Go to List Screen</Link>
+        <Link href="/dog">View Dogs</Link>
+
 
         </View>
     );
