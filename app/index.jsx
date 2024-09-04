@@ -32,6 +32,9 @@ function addList()
         <Link href="/list">Go to List Screen</Link>
         <Link href="/dog">View Dogs</Link>
 
+        <Link href="/posts">View Posts</Link>
+        <Link href="/sensor">View Sensor</Link>
+
 
         </View>
     );
