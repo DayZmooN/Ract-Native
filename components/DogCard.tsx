@@ -5,16 +5,15 @@ import Delete from './Delete';
 
 interface Props {
   dog: Dog;
-  onDelete: (dog: Dog) => void;  // Assurez-vous que onDelete accepte un objet Dog
+  // onDelete: (dog: Dog) => void; 
 }
 
-export default function DogCard({ dog, onDelete }: Props) {
+export default function DogCard({ dog }: Props) {
   return (
     <View style={styles.card}>
       <Text style={styles.name}>{dog.name}</Text>
       <Text style={styles.breed}>{dog.breed}</Text>
       <Text style={styles.birthdate}>Birthdate: {new Date(dog.birthdate).toLocaleDateString()}</Text>
-      <Delete id={dog.id!} onDelete={() => onDelete(dog)} /> {/* Passer id comme nombre et utiliser la fonction onDelete */}
     </View>
   );
 }
