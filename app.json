@@ -26,9 +26,16 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+    "expo": {
     "plugins": [
-      "expo-router"
-    ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "L'application accède à vos photos pour vous permettre de les partager avec vos amis."
+        }
+      ]
+    ]
+  },
     "experiments": {
       "typedRoutes": true
     }
