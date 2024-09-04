@@ -2,8 +2,7 @@ import MonComponent from '@/components/MonComponent';
 import Counter from '@/components/Counter';
 import ListNames from '@/components/ListNames';
 import { useState } from 'react';
-import { Text,View } from 'react-native';
-import { TextInput } from 'react-native-gesture-handler';
+import { Text,View,TextInput } from 'react-native';
 import { Link } from "expo-router";
 
 export default function index(){
