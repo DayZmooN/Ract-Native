@@ -34,6 +34,7 @@ function addList()
 
         <Link href="/posts">View Posts</Link>
         <Link href="/sensor">View Sensor</Link>
+        <Link href="/carto">View maps</Link>
 
 
         </View>
